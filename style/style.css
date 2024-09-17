@@ -1,0 +1,115 @@
+body {
+    background-color: #202020;
+}
+
+.tela {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+
+.copo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 540px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #dadada;
+;
+    border: 1px solid;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.agua {
+    width: 310px;
+    background-color: #38368a;
+    border-radius: 0px 0px 45px 45px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 1px;
+    margin-bottom: 4px;
+    transition: height 1s ease;
+}
+
+.porcentagem {
+    color: #636363;
+    font-size: 3rem;
+    margin: 20px auto;
+    position: absolute;
+    text-align: center;
+
+}
+
+.input {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+.tabela {
+    width: 408px;
+    height: 408px;
+    background-color: #7827ec;
+    margin: 20px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.adicionar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 46px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    left: 40%;
+    color: #636363;
+}
+
+.adicionar:hover {
+    background-color: rgb(221, 221, 221);
+}
+.numeros{
+    margin-bottom: 180px;
+}
+#btt {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+    color: #636363;
+    position: flex;
+    font-size: 1.5rem;
+}
+#btt:hover {
+    background-color: rgb(221, 221, 221);
+}
+.resultado {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 300px;
+    font-size: 1.5rem;
+}
